@@ -15,14 +15,7 @@ BLOB = "C/nOKggb+jV3ndw6xUTT9d+66ekXpDNbL8RMVV+h9Q/3qAU7aeFQMkJK+a5P5fMhvPOeal+1
 print(Fore.CYAN + "═" * 55)
 print(Fore.RED + Style.BRIGHT + "FIREWALL BREAKER OSINT v3.1 [PROTECTED]".center(55))
 print(Fore.YELLOW + "Created by Alok Thakur".center(55))
-print(Fore.MAGENTA + "Enter The Licence Key".center(55))
 print(Fore.CYAN + "═" * 55)
-
-key = input(Fore.YELLOW + Style.BRIGHT + "\nEnter License Key: ").strip()
-
-if not check_license(key):
-    print(Fore.RED + "\nInvalid Key! Access Denied.")
-    sys.exit(1)
 
 print(Fore.GREEN + "Key Verified! Starting...\n")
 time.sleep(1)
